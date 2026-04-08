@@ -7,5 +7,10 @@ content:
     fields:
       - name: title
         type: string
+      - name: author
+        type: string
+      - name: categories
+        type: string
+        list: true
       - name: body
         type: rich-text
