@@ -1,5 +1,16 @@
 media: media
 content:
+  - name: site
+    label: Site settings
+    type: file
+    path: src/_data/site.json
+    fields:
+     - name: title
+       type: string
+     - name: description
+       type: text
+     - name: url
+       type: string
   - name: pages
     label: Pages
     type: collection
